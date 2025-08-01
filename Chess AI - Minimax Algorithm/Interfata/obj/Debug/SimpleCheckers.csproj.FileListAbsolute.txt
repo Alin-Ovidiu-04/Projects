@@ -1,0 +1,32 @@
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\bin\Debug\SimpleCheckers.exe.config
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\bin\Debug\SimpleCheckers.exe
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\bin\Debug\SimpleCheckers.pdb
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.csproj.AssemblyReference.cache
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.csproj.SuggestedBindingRedirects.cache
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.MainForm.resources
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.Properties.Resources.resources
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.csproj.GenerateResource.cache
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.csproj.CoreCompileInputs.cache
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.exe
+C:\Users\bdp\Desktop\IA_prj\IA\Interfata\obj\Debug\SimpleCheckers.pdb
+D:\git repositories\IA\Interfata\bin\Debug\SimpleCheckers.exe.config
+D:\git repositories\IA\Interfata\bin\Debug\SimpleCheckers.exe
+D:\git repositories\IA\Interfata\bin\Debug\SimpleCheckers.pdb
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.csproj.AssemblyReference.cache
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.MainForm.resources
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.Properties.Resources.resources
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.csproj.GenerateResource.cache
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.csproj.CoreCompileInputs.cache
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.exe
+D:\git repositories\IA\Interfata\obj\Debug\SimpleCheckers.pdb
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\bin\Debug\SimpleCheckers.exe.config
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\bin\Debug\SimpleCheckers.exe
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\bin\Debug\SimpleCheckers.pdb
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.csproj.AssemblyReference.cache
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.csproj.SuggestedBindingRedirects.cache
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.MainForm.resources
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.Properties.Resources.resources
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.csproj.GenerateResource.cache
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.csproj.CoreCompileInputs.cache
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.exe
+C:\Users\bdp\Desktop\IA_P\IA\Interfata\obj\Debug\SimpleCheckers.pdb

@@ -1,0 +1,29 @@
+<% if (utilizator) { %>
+
+    <p>Autentificat ca <%= utilizator.nume %>!</p>
+    <form action="/delogare" method="post">
+      <button type="submit">Delogare</button>
+    </form>
+    <br><br>
+    <fieldset>
+        <legend><b>Produsele din cosul dumneavoastra</b></legend>
+        <br>
+      
+        <table>
+            
+            <tr>
+                <th>Denumire</th>
+                <th>Gramaj</th>
+            </tr>
+      
+            <% if (typeof cumparaturi !== 'undefined' && cumparaturi.length > 0) { %>
+                <% cumparaturi.forEach(function(produs, index) { %>
+                    <tr>
+                        <td><%= produs.denumire %></td>
+                        <td><%= produs.gramaj %></td>
+                    </tr>
+                <% }) %>
+
+            <% } %>
+
+<% } %>

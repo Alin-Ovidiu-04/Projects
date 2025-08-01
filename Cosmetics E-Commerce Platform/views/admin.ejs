@@ -1,0 +1,18 @@
+<% if (utilizator) { %>
+    <p>Autentificat ca <%= utilizator.nume %>!</p>
+    <form action="/delogare" method="post">
+      <button type="submit">Delogare</button>
+    </form>
+    <% } %> 
+
+<fieldset>
+    <form action="/adauga-produs" method="post" id = "form1">
+        <label for="name">Denumire produs:</label><br>
+        <input type="text" id="name" name="denumire" value=""><br>
+        <label for="quantity">Gramaj produs:</label><br>
+        <input type="text" id="quantity" name="gramaj" value=""><br>
+    </form>
+
+    <br><br>
+    <button type="submit" form="form1" value="Submit">Adauga Produs</button>
+</fieldset>

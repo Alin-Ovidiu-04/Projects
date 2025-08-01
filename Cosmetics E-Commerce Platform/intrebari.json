@@ -1,0 +1,34 @@
+{
+    "intrebari": [
+      {
+        "intrebare": "Ce vitamină este adesea utilizată în produsele de îngrijire a pielii pentru a promova procesul de vindecare?",
+        "variante": ["a) Vitamina A", "b) Vitamina B", "c) Vitamina E", "d) Vitamina K"],
+        "corect": 0
+      },
+      {
+        "intrebare": "Care dintre următoarele ingrediente este cunoscut pentru proprietățile sale hidratante?",
+        "variante": ["a) Acid salicilic", "b) Ulei de cocos", "c) Alcool denaturat", "d) Acid hialuronic"],
+        "corect": 3
+      },
+      {
+        "intrebare": "Care dintre următoarele substanțe este adesea folosită în produsele anti-îmbătrânire?",
+        "variante": ["a) Retinol", "b) Vitamina C", "c) Acid glicolic", "d) Parabeni"],
+        "corect": 0
+      },
+      {
+        "intrebare": "Ce înseamnă SPF în ceea ce privește produsele de protecție solară?",
+        "variante": ["a) Sun Protection Formula", "b) Sunburn Prevention Factor", "c) Sunscreen Power Factor", "d) Skin Protection Factor"],
+        "corect": 0
+      },
+      {
+        "intrebare": "Ce funcție are un exfoliant facial?",
+        "variante": ["a) Hidratează pielea", "b) Îndepărtează celulele moarte ale pielii", "c) Reduce ridurile", "d) Stimulează producția de colagen"],
+        "corect": 1
+      },
+      {
+        "intrebare": "Ce reprezintă termenul \"non-comedogenic\" în contextul produselor cosmetice?",
+        "variante": ["a) Nu conține parabeni", "b) Nu este testat pe animale", "c) Nu provoacă comedoane (puncte negre și coșuri)", "d) Este fabricat cu ingrediente naturale"],
+        "corect": 2
+      }
+    ]
+  }

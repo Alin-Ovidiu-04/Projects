@@ -1,0 +1,28 @@
+{
+  "utilizatori": [
+    {
+      "user": "a",
+      "password": "a",
+      "email": "a@gmail.com",
+      "rol": "ADMIN"
+    },
+    {
+      "user": "b",
+      "password": "b",
+      "email": "b@gmail.com",
+      "rol": "USER"
+    },
+    {
+      "user": "cc",
+      "password": "cc",
+      "email": "cc@gmail.com",
+      "rol": "USER"
+    },
+    {
+      "user": "dd",
+      "password": "dd",
+      "email": "dd@gmail.com",
+      "rol": "USER"
+    }
+  ]
+}

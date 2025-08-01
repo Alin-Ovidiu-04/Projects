@@ -1,0 +1,95 @@
+/* Container for the entire login page */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient background */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Login form styles */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading style */
+.login-form h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+}
+
+/* Input container styles */
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-form input:focus,
+.login-form input:not(:placeholder-shown) {
+  border-color: #0072ff;
+}
+
+/* Label styles */
+.login-form label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0 5px;
+  color: #666;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.login-form input:focus + label,
+.login-form input:not(:placeholder-shown) + label {
+  top: 0;
+  left: 10px;
+  font-size: 0.8rem;
+  color: #0c1116;
+}
+
+/* Button styles */
+.login-form button {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #005bb5;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 16px;
+}

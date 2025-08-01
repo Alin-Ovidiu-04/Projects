@@ -1,0 +1,26 @@
+<% if (utilizator) { %>
+    <p>Autentificat ca <%= utilizator.nume %>!</p>
+    <form action="/delogare" method="post">
+      <button type="submit">Delogare</button>
+    </form>
+    <% } %>
+
+<h1>Scurt chestionar:</h1>
+
+<fieldset>
+    <form action="/rezultat-chestionar" method="post" id="form1">
+        <% intrebari.forEach(function(intrebare, index) { %>
+            <p><b><%= intrebare.intrebare %></b></p>
+            <% intrebare.variante.forEach(function(varianta, vIndex) { %>
+                <div>
+                    <input type="radio" id="varianta<%= vIndex %>" name="intrebare<%= index %>" value="<%= vIndex %>">
+                    <label for="varianta<%= vIndex %>"><%= varianta %></label>
+                </div>
+            <% }) %>
+        <% }) %> 
+    </form>
+
+    <br><br>
+    <button type="submit" form="form1" value="Submit">Submit</button>
+</fieldset>
+

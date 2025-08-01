@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="recipe" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1f8f4cba-8729-4f5d-929d-56d9593cc3aa">
+
+    <parameter name="ingredients" class="java.lang.String"/>
+    <parameter name="additional_preparations" class="java.lang.String"/>
+    <parameter name="method" class="java.lang.String"/>
+
+    <title>
+        <band height="50">
+            <textField>
+                <reportElement x="0" y="0" width="555" height="30" uuid="1a2f9d4e-1b91-4e85-998f-1b0e13f2eb76"/>
+                <textElement>
+                    <font size="18" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Recipe"]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+    <detail>
+        <band height="550">
+            <textField>
+                <reportElement x="0" y="0" width="555" height="30" uuid="d632d98c-3aaf-42c7-86f2-bb6cce1d94b0"/>
+                <textElement>
+                    <font size="16" isItalic="true" isUnderline="true" fontName="Arial"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Ingredients:"]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="0" y="40" width="555" height="190" uuid="b19b9d9f-fb24-4f70-9271-dcdfcbf0670e"/>
+                <textElement>
+                    <font size="12"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{ingredients}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="0" y="240" width="555" height="30" uuid="d632d98c-3aaf-42c7-86f2-bb6cce1d94b0"/>
+                <textElement>
+                    <font size="16" isItalic="true" isUnderline="true" fontName="Arial"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Additional preparations"]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="0" y="280" width="555" height="180" uuid="b19b9d9f-fb24-4f70-9271-dcdfcbf0670e"/>
+                <textElement>
+                    <font size="12"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{additional_preparations}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="0" y="410" width="555" height="30" uuid="2a7a45ed-9c21-4e1c-8d18-41d8be1d8d42"/>
+                <textElement>
+                    <font size="16" isItalic="true" isUnderline="true" fontName="Arial"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Method"]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="0" y="450" width="555" height="90" uuid="62fdbf12-2c2d-4df7-9a65-4b4e6e458564"/>
+                <textElement>
+                    <font size="12"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{method}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+</jasperReport>

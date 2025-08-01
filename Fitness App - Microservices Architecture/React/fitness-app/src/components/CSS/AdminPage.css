@@ -1,0 +1,382 @@
+/* Container for the entire page */
+.container3 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    padding: 0 20px;
+    height: 15%;
+    box-sizing: border-box;
+  }
+  
+  .header1{
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .initial-circle {
+    background-color: #2cb835; /* Slightly lighter blue */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  /* Main body styles */
+  .main-body2 {
+    display: flex;
+    height: 85%;
+  }
+  
+  /* Left sidebar styles */
+  .left-sidebar2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #094c8e; /* Dark blue background */
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .left-sidebar2 button {
+    background-color: #094c8e; /* Same color as background */
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .left-sidebar2 button:hover {
+    background-color: #003366;
+  }
+  
+  .left-sidebar2 button:focus {
+    outline: none;
+  }
+  
+  /* Main content styles */
+  .main-content2 {
+    padding: 20px;
+    width: 90%;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  .settings {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+  .settings button {
+    background-color: #000000; /* Same color as background */
+    color: white;
+    border: none;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .settings button:hover {
+    background-color: #31373d;
+  }
+  
+  .settings button:focus {
+    outline: none;
+  }
+
+  .dish-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative; /* Asigură-te că fiecare container are position: relative */
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .dish-details {
+    flex: 1;
+  }
+  
+  .nutrition-details {
+    flex: 1;
+    margin-top: 25px;
+    margin-left: -400px; /* Spațiu între detaliile preparatului și nutriție */
+  }
+  
+  .recipe-actions {
+    margin-top: 10px; /* Spațiu între nutriție și butoane */
+  }
+  
+  .nutrition-details h4 {
+    margin-top: 0;
+  }
+  
+  .nutrition-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nutrition-details li {
+    display: inline-block; /* Afișează elementele li pe o singură linie */
+    margin-right: 10px;
+  }
+  
+  .antet {
+    position: relative;
+    font-family: 'Lexend', sans-serif;
+  }
+
+  .antet2 {
+    position: relative;
+    font-family: 'Lexend', sans-serif;
+  }
+
+  .recipe-update {
+    position:absolute;
+    top: 0;
+    right: 20px;
+
+  }
+
+  .recipe-update button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: -25px;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .recipe-update button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .new-exercise {
+    position:absolute;
+    top: 0;
+    right: 20px;
+
+  }
+
+  .new-exercise button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: -25px;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .new-exercise button:hover {
+    background-color: #0056b3;
+  }
+
+  .exercise-header {
+    display: flex; /* Așezăm numele și detaliile pe aceeași linie */
+    align-items: center; /* Aliniere verticală pe centru */
+  }
+  
+  .exercise-header h3 {
+    margin-right: 10px; /* Spațiu mic între nume și detaliile exercițiului */
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  .exercise-details {
+    font-size: 17px; /* Mărimea fontului pentru detaliile exercițiului */
+    font-family: 'Lexend', sans-serif;
+    font-weight: normal; /* Textul detaliilor nu va fi ingrosat */
+  }
+
+  .button-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 3px; /* Grosimea marginii */
+    border-style: solid; /* Stilul marginii */
+  }
+
+
+  .new-exercise-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-exercise-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .new-exercise-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .new-exercise-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .new-exercise-form .submit-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .new-exercise-form .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .new-exercise-form .submit-button:hover,
+  .new-exercise-form .cancel-button:hover {
+    opacity: 0.9;
+  }
+  
+  .new-exercise-form .submit-button:focus,
+  .new-exercise-form .cancel-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
+  }
+
+  .new-dish-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-dish-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .new-dish-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .new-dish-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .new-dish-form .submit-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .new-dish-form .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .new-dish-form .submit-button:hover,
+  .new-dish-form .cancel-button:hover {
+    opacity: 0.9;
+  }
+  
+  .new-dish-form .submit-button:focus,
+  .new-dish-form .cancel-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
+  }
+
+  .nutrition-inputs {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px; /* Spacing between inputs */
+  }
+  
+  .nutrition-inputs input {
+    flex: 1;
+    min-width: 50px; /* Minimum width to ensure they don't get too small */
+  }
+
+  .recipe-inputs {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px; /* Spacing between text areas */
+    margin-top: 10px; /* Optional: Space between nutrition inputs and recipe inputs */
+  }
+  
+  .recipe-inputs textarea {
+    flex: 1;
+    min-width: 100px; /* Minimum width to ensure they don't get too small */
+    height: 100px; /* Height to allow more text */
+    resize: vertical; /* Allow vertical resize */
+  }
+
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }

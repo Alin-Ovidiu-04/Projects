@@ -1,0 +1,24 @@
+body{
+    background-image: url("images/background1.jpg");
+    background-size: cover;
+}
+
+fieldset{
+    width: 860px;
+    border-radius: 2%;
+}
+form p{
+    font-size: 20px;
+}
+
+form label{
+    font-size: 18px;
+}
+
+button[type="submit"] {
+    background-color: rgb(31, 14, 161);
+    font-size: 20px;
+
+    color: white;
+    cursor: pointer;
+}

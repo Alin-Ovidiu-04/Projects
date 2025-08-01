@@ -1,0 +1,7 @@
+button[type="submit"] {
+    background-color: blue; /* Schimbarea culorii butoanelor de tip Submit în albastru */
+    color: white; /* Schimbarea culorii textului butoanelor pentru a fi vizibil pe fundalul albastru */
+    padding: 10px 20px; /* Adăugarea spațiului în interiorul butoanelor */
+    border: none; /* Eliminarea marginilor butoanelor */
+    cursor: pointer; /* Transformarea cursorului la interacțiunea cu butonul */
+  }

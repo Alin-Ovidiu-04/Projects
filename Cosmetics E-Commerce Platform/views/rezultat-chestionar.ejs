@@ -1,0 +1,25 @@
+
+<% let raspunsuriCorecteCount = 0; %>
+
+<% intrebari.forEach(function(intrebare, index) { %>
+    <% const numeIntrebare = 'intrebare' + index; %>
+    <% const raspunsCorect = intrebare.corect %>
+    <% const raspunsPrimit = raspunsuri[numeIntrebare]; %>
+
+    <% if (raspunsPrimit == raspunsCorect) { %>
+        <% raspunsuriCorecteCount++; %>
+    <% } %>
+
+<% }) %>
+
+
+<section>
+    <% if (utilizator) { %>
+        <p>Autentificat ca <%= utilizator.nume %>!</p>
+        <form action="/delogare" method="post">
+          <button type="submit">Delogare</button>
+        </form>
+        <% } %>
+    <h2>Rezultat :</h2>
+    <p>Procentaj răspunsuri corecte: <%= (raspunsuriCorecteCount / intrebari.length * 100).toFixed(2) %>%</p>
+</section>

@@ -1,0 +1,37 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.fitness.idm.proto;
+
+service UserService {
+    rpc createUser(UserGrpc) returns (UserGrpc);
+}
+
+message UserGrpc {
+    int64 id=1;
+    string role=2;
+    string username=3;
+    string password=4;
+}
+
+service TokenService {
+    rpc validateToken(TokenValidateRequest) returns (TokenValidateResponse);
+    rpc login(CredentialsRequest) returns (TokenValidateRequest);
+    rpc logout(TokenValidateRequest) returns (EmptyGrpcResponse);
+}
+
+message TokenValidateRequest {
+    string token = 1;
+}
+
+message TokenValidateResponse {
+    int32 id = 1;
+    string role = 2;
+}
+
+message CredentialsRequest {
+    string username = 1;
+    string password = 2;
+}
+
+message EmptyGrpcResponse{
+}

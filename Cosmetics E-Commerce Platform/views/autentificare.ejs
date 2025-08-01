@@ -1,0 +1,15 @@
+<h1>Date pentru autentificare:</h1>
+<fieldset>
+    <form action="/verificare-autentificare" method="post" id="form2">
+        <label for="uname">Nume utilizator:</label><br>
+        <input type="text" id="uname" name="nume" value=""><br>
+        <label for="password">Parola:</label><br>
+        <input type="password" id="password" name="parola" value=""><br><br>
+        <% if (mesajEroare) { %>
+            <p style="color: red;"><%= mesajEroare %></p>
+        <% } %>
+    </form>
+
+    <br><br>
+    <button type="submit" form="form2" value="Submit">Autentificare</button>
+</fieldset>

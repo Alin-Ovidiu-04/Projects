@@ -1,0 +1,41 @@
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.exe.config
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.exe
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.pdb
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.AssemblyReference.cache
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.SuggestedBindingRedirects.cache
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Properties.Resources.resources
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.GenerateResource.cache
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.CoreCompileInputs.cache
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.exe
+C:\Users\bdp\Desktop\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.pdb
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\bin\Debug\Database1.mdf
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\bin\Debug\Database1_log.ldf
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.exe.config
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.exe
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.pdb
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.AssemblyReference.cache
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.SuggestedBindingRedirects.cache
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Properties.Resources.resources
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.GenerateResource.cache
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.CoreCompileInputs.cache
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.exe
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.pdb
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Form1.resources
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Files.resources
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Performances.resources
+C:\Users\bdp\Desktop\Project_SI\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Encrypt_Decrypt.resources
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\bin\Debug\Database1.mdf
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\bin\Debug\Database1_log.ldf
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.exe.config
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.exe
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\bin\Debug\Decodeur.pdb
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.AssemblyReference.cache
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Encrypt_Decrypt.resources
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Files.resources
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Form1.resources
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Performances.resources
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.Properties.Resources.resources
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.GenerateResource.cache
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.csproj.CoreCompileInputs.cache
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.exe
+D:\git repositories\Proiect_SI\Decodeur\Decodeur\obj\Debug\Decodeur.pdb

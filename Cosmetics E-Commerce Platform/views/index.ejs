@@ -1,0 +1,78 @@
+<% if (utilizator) { %>
+    <p>Autentificat ca <%= utilizator.nume %>!</p>
+    <form action="/delogare" method="post">
+      <button type="submit">Delogare</button>
+    </form><br>
+    <form action="/creare-bd" method="get">
+      <button type="submit">Creare BD</button>
+    </form><br>
+    <form action="/inserare-bd" method="get">
+      <button type="submit">Inserare BD</button>
+    </form><br>
+    <form action="/afisare-produse" method="get" >
+      <button type="submit">Afișare Produse</button>
+    </form><br>
+    <form action="/sterge-produse" method="get" >
+      <button type="submit">Șterge produse</button>
+    </form><br>
+    <form action="/vizualizare-cos" method="get">
+      <button type="submit">Vizualizare Cos</button>
+    </form><br>
+
+    <% if (utilizator.rol === "ADMIN") { %>
+
+      <form action="/admin" method="get">
+        <button type="submit">Pagina Admin</button>
+      </form>
+
+    <% } %>
+
+    <br>
+    <p>Bine ai venit, <%= utilizator.nume %>!</p>
+
+  
+  <br>
+
+  <fieldset>
+  <legend><b>Produsele din stoc</b></legend>
+  <br>
+
+  <table>
+      
+      <tr>
+          <th>Id</th>
+          <th>Denumire</th>
+          <th>Gramaj</th>
+      </tr>
+
+      <% if (typeof produseCosmetice !== 'undefined' && produseCosmetice.length > 0) { %>
+          <% for (var i = 0; i < produseCosmetice.length; i++) { %>
+              
+              <tr>
+                  <td><%= produseCosmetice[i].id %></td>
+                  <td><%= produseCosmetice[i].denumire %></td>
+                  <td><%= produseCosmetice[i].gramaj %></td>
+                  
+                  <% if(utilizator){ %>
+                    <td>
+                      <form action="/adaugare-cos" method="POST" id="form<%= produseCosmetice[i].id %>">
+                        <button type="submit" form="form<%= produseCosmetice[i].id %>" name="id" value="<%= produseCosmetice[i].id %>">Adaugă în coș</button>
+                    </form>
+                    </td>
+                  <%}else{%>
+                      <td><button disabled>Adaugă în coș</button></td>
+                  <%} %>
+
+              </tr>
+
+          <% } %>
+     <% } %>
+  </table>
+
+<br>  
+</fieldset>
+
+  <% } else { %>
+    <a href="/autentificare">AUTENTIFICARE</a>
+  <% } %>
+  

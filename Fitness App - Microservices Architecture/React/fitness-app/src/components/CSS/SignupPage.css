@@ -1,0 +1,118 @@
+/* Container for the entire signup page */
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient background */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Signup form styles */
+.signup-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading style */
+.signup-form h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+}
+
+/* Input container styles */
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.signup-form input:focus,
+.signup-form input:not(:placeholder-shown) {
+  border-color: #0072ff;
+}
+
+/* Label styles */
+.signup-form label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: transparent;
+  color: #666;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.signup-form input:focus + label,
+.signup-form input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 10px;
+  font-size: 0.8rem;
+  color: #0c1116;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Button styles */
+.signup-form button {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #005bb5;
+}
+
+.select-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Select styles */
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+}
+
+.select-container label {
+  position: absolute;
+  top: -10px;
+  left: 8px;
+  color: #666;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
